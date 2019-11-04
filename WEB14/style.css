@@ -1,0 +1,162 @@
+body{
+margin:0px;
+padding:0px;
+background-image:url(images/bg.jpg);}
+
+
+#wrapper{
+width:1000px;
+height:1500px;
+top:0px;
+left:0px;
+background-color:#333333;
+position:relative;
+margin:0 auto;
+}
+
+#header{
+width:1000px;
+height:200px;
+top:0px;
+left:0px;
+background-color:#CC9900;
+position:absolute;
+}
+
+/*----------start menu--------------------*/
+#menu{
+width:1000px;
+height:50px;
+top:200px;
+left:0px;
+background-image:url(images/menuslice.jpg);
+position:absolute;}
+
+#menu ul{ 
+padding:0px;
+margin:0px;
+}
+
+#menu ul li{
+float:left;
+width:130px;
+line-height:50px;
+text-align:center;
+font-size:20px;
+list-style:none;
+border:1px solid #FFFFFF;}
+
+#menu ul li a{
+text-decoration:none;
+color:#000000;
+display:block;}
+
+#menu ul li a:hover{
+background-color:#999999;}
+/*------------end menu-----------------------*/
+#slider{
+width:1000px;
+height:250px;
+top:250px;
+left:0px;
+background-image:url(images/sliderslice.jpg);
+position:absolute;}
+
+.imgslider{
+width:1000px;
+height:250px;}
+
+
+/*--------------------------------------*/
+#left{
+width:200px;
+height:950px;
+top:500px;
+left:0px;
+background-image:url(images/left+right.jpg);
+position:absolute;}
+
+#left ul{ 
+padding:0px;
+margin:0px;
+}
+
+#left ul li{
+width:200px;
+line-height:50px;
+text-align:center;
+font-size:20px;
+list-style:none;
+border:1px solid #FFFFFF;}
+
+#left ul li a{
+text-decoration:none;
+color:#000000;
+display:block;}
+
+#left ul li a:hover{
+background-color:#999999;}
+
+
+/*--------------------------------*/
+#content{
+width:600px;
+height:950px;
+top:500px;
+left:200px;
+background-color:#FFFFFF;
+position:absolute;}
+
+h1,h2,h3,h4,h5,h6{
+font-size:36px;
+color:#0000FF;
+margin:20px;}
+
+
+
+/*------------------------------*/
+#right{
+width:200px;
+height:950px;
+top:500px;
+left:800px;
+background-image:url(images/left+right.jpg);
+position:absolute;}
+
+
+
+.imgright{
+width:190px;
+height:90px;
+margin:5px;}
+
+/*-------------START FOOTER---------------*/
+#footer{
+width:1000px;
+height:50px;
+top:1450px;
+left:0px;
+background-image:url(images/menuslice.jpg);
+position:absolute;}
+
+#footer ul{ 
+padding:0px;
+margin:0px;
+}
+
+#footer ul li{
+float:left;
+width:130px;
+line-height:50px;
+text-align:center;
+font-size:20px;
+list-style:none;
+border:1px solid #FFFFFF;}
+
+#footer ul li a{
+text-decoration:none;
+color:#000000;
+display:block;}
+
+#footer ul li a:hover{
+background-color:#999999;}
